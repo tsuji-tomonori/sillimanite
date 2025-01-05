@@ -9,6 +9,8 @@
         "vscjava.vscode-gradle",
         "vscjava.vscode-maven",
         "vscjava.vscode-java-dependency",
+        // Docker
+        "ms-azuretools.vscode-docker",
         // Git
         "mhutchie.git-graph",
         "donjayamanne.githistory",
