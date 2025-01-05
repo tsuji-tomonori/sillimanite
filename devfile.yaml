@@ -11,7 +11,7 @@ metadata:
 components:
   - name: aws-runtime
     container:
-      image: public.ecr.aws/aws-mde/universal-image:3.0
+      image: diopside/sillimanite:tagname
       mountSources: true
       volumeMounts:
         - name: docker-store
