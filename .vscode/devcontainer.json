@@ -1,0 +1,9 @@
+{
+    "name": "dev-env",
+    "image": "public.ecr.aws/aws-mde/universal-image:3.0",
+    "mounts": [
+        "source=${localEnv:HOME}${localEnv:USERPROFILE}/.aws,target=/home/vscode/.aws,type=bind,consistency=cached",
+        "source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached"
+    ],
+    "remoteUser": "vscode"
+}
