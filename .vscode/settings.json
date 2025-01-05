@@ -1,0 +1,230 @@
+{
+    // エディター設定
+    "editor.bracketPairColorization.enabled": true, // 括弧のペアを色分け
+    "editor.cursorSmoothCaretAnimation": "on", // カーソルのスムーズなアニメーション
+    "editor.cursorStyle": "line-thin", // カーソルスタイルを細いラインに設定
+    "editor.dragAndDrop": false, // ドラッグ＆ドロップ操作を無効化
+    "editor.fontFamily": "'Moralerspace Neon HWNF', Consolas, 'Courier New', monospace", // フォント設定
+    "editor.guides.bracketPairs": true, // 括弧ペアのガイドラインを表示
+    "editor.minimap.maxColumn": 80, // ミニマップの列幅制限
+    "editor.minimap.showSlider": "always", // ミニマップのスライダーを常に表示
+    "editor.mouseWheelZoom": true, // マウスホイールでズームを有効化
+    "editor.renderLineHighlight": "all", // 現在行の強調表示
+    "editor.renderWhitespace": "all", // 空白文字を常に表示
+    "editor.showFoldingControls": "always", // 折りたたみコントロールを常に表示
+    "editor.smoothScrolling": true, // スムーズスクロールを有効化
+    "editor.wordSegmenterLocales": "ja", // 日本語のセグメンテーション
+    "editor.wrappingIndent": "indent", // インデントを考慮した改行
+    // エクスプローラー設定
+    "explorer.confirmDelete": false, // 削除確認を無効化
+    "explorer.confirmDragAndDrop": false, // ドラッグ＆ドロップの確認を無効化
+    // ファイル設定
+    "files.autoGuessEncoding": true, // ファイルエンコーディングを自動推測
+    "files.candidateGuessEncodings": [
+        "utf8",
+        "shiftjis",
+        "eucjp"
+    ], // 推測対象のエンコーディング
+    "files.insertFinalNewline": true, // 最後の改行を追加
+    "files.trimFinalNewlines": true, // 不要な末尾改行を削除
+    "files.trimTrailingWhitespace": true, // 不要な末尾の空白を削除
+    // Git設定
+    "git.autofetch": "all", // 全リポジトリの自動フェッチ
+    "git.confirmSync": false, // 同期確認を無効化
+    "git.suggestSmartCommit": false, // スマートコミットの提案を無効化
+    // SCM設定
+    "scm.alwaysShowRepositories": true, // 常にリポジトリを表示
+    "scm.defaultViewMode": "tree", // デフォルト表示モードをツリーに設定
+    "scm.diffDecorationsGutterWidth": 5, // 差分装飾のガター幅
+    "scm.inputFontFamily": "editor", // 入力フォントをエディターと同じに設定
+    "scm.inputFontSize": 14, // 入力フォントサイズ
+    // 問題タブ設定
+    "problems.defaultViewMode": "tree", // 問題タブをツリー構造で表示する
+    "problems.autoReveal": true, // 問題が発生した場合に、該当する問題を自動的に選択して表示する
+    "problems.showCurrentInStatus": true, // ステータスバーに現在の問題（エラーや警告）の数を表示する
+    "problems.sortOrder": "severity", // エラー（赤）、警告（黄）、情報（青）の順に表示
+    "problems.visibility": true, // 問題タブの表示
+    // 検索設定
+    "search.showLineNumbers": true, // 検索結果に行番号を表示
+    // ターミナル設定
+    "terminal.integrated.cursorBlinking": true, // カーソルの点滅を有効化
+    "terminal.integrated.cursorStyle": "line", // カーソルスタイルをラインに設定
+    "terminal.integrated.enableImages": true, // 画像表示を有効化
+    "terminal.integrated.enableVisualBell": true, // ビジュアルベルを有効化
+    "terminal.integrated.mouseWheelZoom": true, // マウスホイールでズームを有効化
+    "terminal.integrated.smoothScrolling": true, // スムーズスクロールを有効化
+    "terminal.integrated.copyOnSelection": true, // 選択時に自動コピー
+    "terminal.integrated.rightClickBehavior": "copyPaste", // 右クリックでコピー＆ペースト
+    "terminal.integrated.fontSize": 17, // フォントサイズ
+    // ワークベンチ設定
+    "workbench.editor.closeOnFileDelete": true, // ファイル削除時にエディターを閉じる
+    "workbench.editor.pinnedTabsOnSeparateRow": true, // ピン留めタブを別行に表示
+    "workbench.editor.scrollToSwitchTabs": true, // タブ切り替え時にスクロール
+    "workbench.editor.wrapTabs": true, // タブを折り返し表示
+    "workbench.list.smoothScrolling": true, // スムーズスクロール
+    "workbench.view.alwaysShowHeaderActions": true, // ヘッダーアクションを常に表示
+    "workbench.iconTheme": "material-icon-theme", // アイコンテーマ
+    // 拡張機能
+    // Java
+    "testing.showAllMessages": true, // テストの実行時成功してもメッセージを表示する
+    "java.autobuild.enabled": false, // 保存時にbuildしない
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/.hg/store/**": true,
+        "**/build/**": true,
+    },
+    // Git Lens
+    "gitlens.defaultDateFormat": "YYYY年MM月DD日 HH:mm", // デフォルトの日付フォーマット
+    "gitlens.defaultDateShortFormat": "MM月DD日 HH:mm", // 短縮版の日付フォーマット
+    "gitlens.defaultTimeFormat": "HH:mm:ss", // デフォルトの時刻フォーマット
+    "gitlens.currentLine.dateFormat": "YYYY年MM月DD日 HH:mm", // 現在の行に表示される日付フォーマット
+    "gitlens.plusFeatures.enabled": false, // GitLens+ のプロンプトや有料機能を無効化
+    "gitlens.cloudPatches.enabled": false, // Cloud Patches 機能を個別に無効化 (GitLens+ の一部)
+    "gitlens.launchpad.indicator.enabled": false,
+    // Git Graph
+    // Git Graph のデフォルトビュー設定
+    "git-graph.repository.onLoad.showCheckedOutBranch": true, // 起動時に現在のブランチを表示
+    "git-graph.commitDetailsView.location": "Inline", // コミット詳細をサイドバーではなくインライン表示
+    "git-graph.date.format": "ISO Date & Time", // 日付フォーマットを日本形式に変更
+    "git-graph.graph.style": "rounded", // ラウンドスタイルのグラフ表示
+    "git-graph.repository.commits.showSignatureStatus": true, // コミット署名ステータスを表示
+    "git-graph.maxDepthOfRepoSearch": 3, // リポジトリ検索の深さを制限
+    "git-graph.customBranchGlobPatterns": [
+        {
+            "name": "Feature Requests",
+            "glob": "*/feature*"
+        },
+        {
+            "name": "Fix Requests",
+            "glob": "*/fix*"
+        },
+        {
+            "name": "Develop",
+            "glob": "*/dev"
+        },
+    ],
+    // Checkstyle
+    "java.checkstyle.version": "10.21.1",
+    // AWS
+    "aws.telemetry": false, // テレメトリを送信しない
+    // カスタマイズ設定
+    "workbench.colorTheme": "Default Dark Modern", // 配色テーマ
+    "workbench.colorCustomizations": {
+        // カラー設定: ターミナル
+        "terminal.background": "#282c34", // ターミナルの背景色
+        "terminal.foreground": "#dcdcdc", // ターミナルの文字色
+        "terminalCursor.background": "#dcdcdc", // カーソルの背景色
+        "terminalCursor.foreground": "#dcdcdc", // カーソルの文字色
+        "terminal.ansiBlack": "#282c34", // ANSIブラック
+        "terminal.ansiRed": "#e06c75", // ANSIレッド
+        "terminal.ansiGreen": "#98c379", // ANSIグリーン
+        "terminal.ansiYellow": "#e5c07b", // ANSIイエロー
+        "terminal.ansiBlue": "#61afef", // ANSIブルー
+        "terminal.ansiMagenta": "#c678dd", // ANSIマゼンタ
+        "terminal.ansiCyan": "#56b6c2", // ANSIシアン
+        "terminal.ansiWhite": "#dcdcdc", // ANSIホワイト
+        "terminal.ansiBrightBlack": "#5c6370", // ANSI明るいブラック
+        "terminal.ansiBrightRed": "#e06c75", // ANSI明るいレッド
+        "terminal.ansiBrightGreen": "#98c379", // ANSI明るいグリーン
+        "terminal.ansiBrightYellow": "#e5c07b", // ANSI明るいイエロー
+        "terminal.ansiBrightBlue": "#61afef", // ANSI明るいブルー
+        "terminal.ansiBrightMagenta": "#c678dd", // ANSI明るいマゼンタ
+        "terminal.ansiBrightCyan": "#56b6c2", // ANSI明るいシアン
+        "terminal.ansiBrightWhite": "#ffffff", // ANSI明るいホワイト
+        // カラー設定: エディター
+        "editor.background": "#282c34", // エディターの背景色
+        "editor.lineHighlightBackground": "#3b4252", // カーソル行の背景色
+        "editor.lineHighlightBorder": "#4c566a", // カーソル行の境界線色（オプション）
+        "editorGroupHeader.noTabsBackground": "#282c34", // タブがないときの背景色
+        "editorGroupHeader.tabsBackground": "#282c34", // タブがあるときの背景色
+        "editorGroupHeader.tabsBorder": "#3b4252", // タブ境界線色
+        // カラー設定: タブ
+        "tab.activeBackground": "#3b4252", // アクティブなタブの背景色
+        "tab.inactiveBackground": "#282c34", // 非アクティブなタブの背景色
+        "tab.border": "#3b4252", // タブの境界線
+        "tab.activeBorderTop": "#88c0d0", // アクティブタブの上部ボーダー
+        "tab.activeForeground": "#ffffff", // アクティブタブの文字色
+        "tab.inactiveForeground": "#dcdcdc", // 非アクティブタブの文字色
+        "tab.unfocusedActiveBackground": "#2e3440", // 非フォーカス時のアクティブタブ背景色
+        "tab.unfocusedInactiveBackground": "#282c34", // 非フォーカス時の非アクティブタブ背景色
+        // カラー設定: サイドバー
+        "sideBar.background": "#282c34", // サイドバーの背景色
+        "sideBar.dropBackground": "#282c34", // サイドバーのドロップ背景色
+        "sideBar.foreground": "#dcdcdc", // サイドバーの文字色
+        "sideBar.border": "#3b4252", // サイドバーの境界線
+        "sideBarSectionHeader.background": "#282c34", // サイドバーセクションヘッダー背景色
+        "sideBarSectionHeader.foreground": "#ffffff", // サイドバーセクションヘッダー文字色
+        // カラー設定: リスト
+        "list.activeSelectionBackground": "#3b4252", // アクティブ選択時の背景色
+        "list.activeSelectionForeground": "#ffffff", // アクティブ選択時の文字色
+        "list.inactiveSelectionBackground": "#2e3440", // 非アクティブ選択時の背景色
+        "list.inactiveSelectionForeground": "#dcdcdc", // 非アクティブ選択時の文字色
+        "list.hoverBackground": "#3b4252", // ホバー時の背景色
+        "list.hoverForeground": "#ffffff", // ホバー時の文字色
+        "list.focusBackground": "#88c0d0", // フォーカス時の背景色
+        "list.focusForeground": "#ffffff", // フォーカス時の文字色
+        // カラー設定: タイトルバーとパネル
+        "titleBar.activeBackground": "#282c34", // アクティブなタイトルバーの背景色
+        "titleBar.inactiveBackground": "#282c34", // 非アクティブなタイトルバーの背景色
+        "panel.background": "#282c34", // パネルの背景色
+        // カラー設定: アクティビティバーとステータスバー
+        "activityBar.background": "#282c34", // アクティビティバーの背景色
+        "statusBar.background": "#282c34", // ステータスバーの背景色
+        // カラー設定: Peekエディタ
+        "peekViewEditor.background": "#282c34", // 参照先エディタ（Peekエディタ）の背景色
+        "peekViewResult.background": "#2e3440", // 参照結果リストの背景色
+        "peekViewResult.matchHighlightBackground": "#3b4252", // 参照結果のハイライト色
+        "peekViewResult.selectionBackground": "#88c0d0", // 選択された参照結果の背景色
+        "peekViewTitle.background": "#3b4252", // Peekエディタのタイトルバー背景色
+        "peekViewTitleDescription.foreground": "#dcdcdc", // タイトルバーの説明文字色
+        "peekViewTitleLabel.foreground": "#ffffff", // タイトルラベルの文字色
+        // カラー設定: コンテキストメニュー
+        "menu.background": "#282c34", // メニュー全体の背景色
+        "menu.foreground": "#dcdcdc", // メニューの文字色
+        "menu.selectionBackground": "#3b4252", // 選択された項目の背景色
+        "menu.selectionForeground": "#ffffff", // 選択された項目の文字色
+        "menu.separatorBackground": "#3b4252", // メニューのセパレーター色
+        "menu.border": "#3b4252", // メニューの境界線色
+        // カラー設定: IntelliSense（補完候補）ポップアップ
+        "editorSuggestWidget.background": "#282c34", // 補完候補の背景色
+        "editorSuggestWidget.foreground": "#dcdcdc", // 補完候補の文字色
+        "editorSuggestWidget.highlightForeground": "#e5c07b", // ハイライト部分の文字色
+        "editorSuggestWidget.selectedBackground": "#3b4252", // 選択された候補の背景色
+        // カラー設定: Hover情報
+        "editorHoverWidget.background": "#282c34", // Hover情報ポップアップの背景色
+        "editorHoverWidget.foreground": "#dcdcdc", // Hover情報ポップアップの文字色
+        "editorHoverWidget.border": "#3b4252", // Hover情報ポップアップの境界線色
+        // カラー設定: Quick Fixメニュー
+        "editorCodeLens.foreground": "#5c6370", // Quick FixやコードLensの文字色
+        "editorLightBulb.foreground": "#d19a66", // Quick Fixライトバルブの色
+        // カラー設定: エディタ内のポップアップ全般
+        "quickInput.background": "#282c34", // Quick Pick（ポップアップ）背景色
+        "quickInput.foreground": "#dcdcdc", // Quick Pick文字色
+        "quickInputTitle.background": "#3b4252", // Quick Pickタイトル背景色
+        // GitLens Inline Text
+        "gitlens.trailingLineForeground": "#88c0d0", // ファイル内に表示されるGit情報の文字色
+        "gitlens.trailingLineBackground": "#282c34", // 背景色をOne Half Darkに統一
+        // GitLens Hover
+        "gitlens.hoverForeground": "#e5c07b", // Hover情報の文字色
+        "gitlens.hoverBackground": "#282c34", // Hover情報の背景色
+        // GitLens Sidebar
+        "gitlens.lineHighlightForeground": "#ffffff", // Git履歴サイドバーの強調文字色
+        "gitlens.lineHighlightBackground": "#3b4252", // Git履歴サイドバーの強調背景色
+        "gitlens.lineForeground": "#dcdcdc", // サイドバー全体の文字色
+        // Git Graoh
+        "git-graph.graphColours": [
+            "#61afef", // 青
+            "#98c379", // 緑
+            "#e5c07b", // 黄色
+            "#c678dd", // 紫
+            "#d19a66", // オレンジ
+            "#56b6c2", // シアン
+            "#abb2bf" // グレー
+        ],
+        "git-graph.commitDetailsViewFileTree": {
+            "foregroundColour": "#dcdcdc", // ファイルツリーの文字色
+            "backgroundColour": "#282c34" // ファイルツリーの背景色
+        },
+    },
+}

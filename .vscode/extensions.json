@@ -1,0 +1,30 @@
+{
+    "recommendations": [
+        // JP
+        "MS-CEINTL.vscode-language-pack-ja",
+        // Java
+        "vscjava.vscode-java-pack",
+        "vscjava.vscode-java-debug",
+        "vscjava.vscode-java-test",
+        "vscjava.vscode-gradle",
+        "vscjava.vscode-maven",
+        "vscjava.vscode-java-dependency",
+        // Git
+        "mhutchie.git-graph",
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        "vivaxy.vscode-conventional-commits",
+        // UI/UX
+        "oderwat.indent-rainbow",
+        "shardulm94.trailing-spaces",
+        "medo64.render-crlf",
+        "PKief.material-icon-theme",
+        "usernamehw.errorlens",
+        // Excel
+        "GrapeCity.gc-excelviewer",
+        // Other
+        "alefragnani.Bookmarks",
+        "Gruntfuggly.todo-tree",
+        "mutantdino.resourcemonitor",
+    ]
+}
